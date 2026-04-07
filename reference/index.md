@@ -20,6 +20,8 @@
   : Add a root link to a STAC catalog
 - [`add_self_link()`](https://stevenpawley.github.io/stacbuildr/reference/add_self_link.md)
   : Add a self link to a STAC catalog
+- [`bands_from_spatraster()`](https://stevenpawley.github.io/stacbuildr/reference/bands_from_spatraster.md)
+  : Extract Raster Band Metadata from a SpatRaster Object
 - [`bands_from_stars()`](https://stevenpawley.github.io/stacbuildr/reference/bands_from_stars.md)
   : Extract Raster Band Metadata from a Stars Object
 - [`bbox_from_sf()`](https://stevenpawley.github.io/stacbuildr/reference/bbox_from_sf.md)
@@ -42,6 +44,8 @@
   : Create a STAC Item from a Stars Object
 - [`item_from_sf()`](https://stevenpawley.github.io/stacbuildr/reference/item_from_sf.md)
   : Create a STAC Item from an sf Object
+- [`item_from_spatraster()`](https://stevenpawley.github.io/stacbuildr/reference/item_from_spatraster.md)
+  : Create a STAC Item from a SpatRaster Object
 - [`items_from_directory()`](https://stevenpawley.github.io/stacbuildr/reference/items_from_directory.md)
   : Batch Create Items from Raster Files
 - [`landsat_oli_bands()`](https://stevenpawley.github.io/stacbuildr/reference/landsat_oli_bands.md)
@@ -78,6 +82,12 @@
   : Create a STAC Provider Object
 - [`stac_summaries()`](https://stevenpawley.github.io/stacbuildr/reference/stac_summaries.md)
   : Create STAC Summaries
+- [`thumbnail_from_raster()`](https://stevenpawley.github.io/stacbuildr/reference/thumbnail_from_raster.md)
+  : Generate a Thumbnail PNG from a Stars Raster Object
+- [`thumbnail_from_sf()`](https://stevenpawley.github.io/stacbuildr/reference/thumbnail_from_sf.md)
+  : Generate a Thumbnail PNG from an sf Object
+- [`thumbnail_from_spatraster()`](https://stevenpawley.github.io/stacbuildr/reference/thumbnail_from_spatraster.md)
+  : Generate a Thumbnail PNG from a SpatRaster Object
 - [`validate_stac()`](https://stevenpawley.github.io/stacbuildr/reference/validate_stac.md)
   : Validate a STAC Object
 - [`write_catalog()`](https://stevenpawley.github.io/stacbuildr/reference/write_catalog.md)
